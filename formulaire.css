@@ -1,0 +1,27 @@
+.center{
+    text-align: center;
+}
+.forme{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    
+}
+body {
+    /* dégradé horizontal, de gauche (rouge) à droite (bleu) */
+    background: linear-gradient(to right, rgb(245, 245, 50),rgb(107, 228, 121));
+    /* pour que le dégradé occupe toute la hauteur */
+    min-height: 100vh;
+    margin: 0;
+  }
+.sous-page{
+    background: greenyellow;
+    padding: 25px;
+    max-width: 650px;
+    margin: 0 auto;
+    border-radius:20px ;
+    box-shadow: 0 4px 10px rgb(0, 0, 0);
+}
+.formee{
+    border-radius: 10px;
+}

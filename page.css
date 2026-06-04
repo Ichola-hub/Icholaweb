@@ -1,0 +1,96 @@
+body {
+    /* dégradé horizontal, de gauche (rouge) à droite (bleu) */
+    background: linear-gradient(to right, rgb(245, 245, 50),rgb(92, 233, 104));
+    /* pour que le dégradé occupe toute la hauteur */
+    min-height: 100vh;
+    margin: 0;
+  }
+  h1{color:rgb(27, 26, 26);
+      text-align: center;
+              
+  }
+  .center{
+    border-radius:50%;
+    width: 200px;
+    height: 300px;
+   
+}
+
+.image-row {
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 20px; /* espace entre les éléments */
+   margin: 10px;
+}
+
+h2 {
+  text-align: center;
+  margin: 0;
+  font-size: 24px;
+  color: #000; /* Tu peux changer la couleur si tu veux */
+}
+.border{
+    background-color:rgb(231, 217, 21)  ;
+    border-radius:25px ;
+    margin:60px ;
+    padding:30px ;
+}
+.strong{
+    text-decoration: solid black;
+}
+.forme{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    
+}
+.forme label{
+    width:30%  ;
+    font-weight: bold;
+}
+.police{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 100px;
+}
+table{border-collapse: collapse;
+    margin: 25px;
+    display: inline-block;
+    
+
+}
+
+table tr{
+    background-color: rgb(108, 95, 121);
+}
+td,th{
+    border:2px solid black;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 2px;
+}
+.sous-page{
+    background: greenyellow;
+    padding: 25px;
+    max-width: 650px;
+    margin: 0 auto;
+    border-radius:20px ;
+    box-shadow: 0 4px 10px rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

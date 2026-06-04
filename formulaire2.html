@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulaire</title>
+	<link rel="stylesheet" type="text/css" href="formulaire.css">
+	<link rel="icon" href="ichola .ico" type="image/x-icon">
+	<style>
+		body{
+			border: 50px;
+		}
+		.sous-page{
+			background: greenyellow;
+			padding: 25px;
+			max-width: 650px;
+			margin: 0 auto;
+			border-radius:20px ;
+			box-shadow: 0 4px 10px rgb(0, 0, 0);
+		}
+	</style>
+</head>
+<body>
+	<div class="sous-page">
+<h1 class="center">Enregistrement Des Etudiants</h1>
+	<fieldset style="border-radius: 8px;">
+		<legend class="center"><h3 >Etat Civil</h3></legend>
+			<div class="forme">
+				<label for="nom">Nom:</label>            
+				<input type="text" style="border-radius: 5px;height: 20px" id="nom" name="nom">
+				<label for="prenom">Prenom:</label>
+				<input type="text" style="border-radius: 5px;height: 20px" id="prenom" name="prenom">
+			</div>
+			<div class="forme">
+				<label for="naissance">Nee:</label>
+				<input type="text" style="border-radius: 5px;height: 20px" id="naissance" name="naissance">
+				<label for="mail">mail:</label>
+				<input type="email" style="border-radius: 5px;height: 20px" id="mail" name="mail">
+			</div>
+			<div class="forme">
+				<label for="sexe">Sexe:</label> 
+				<input type="text" style="border-radius: 5px;height: 20px">
+				<label for="contact">Contact:</label>
+				<input type="text" style="border-radius: 5px;height: 20px" id="contact" name="contact">
+			</div>
+	</fieldset>
+	<fieldset style="border-radius: 8px;">
+		<legend class="center"><h3>Diplomes</h3></legend>
+			<div class="forme">
+				<input type="checkbox"> CEP
+				<input type="checkbox"> BEPC
+				<input type="checkbox"> BAC 
+				<input type="checkbox"> BIS
+			</div>
+	</fieldset >
+	<div class="center">
+			<h3>Adresse</h3><br/><input type="text" style="border-radius: 10px;height: 35px;width: 500px;">
+	</div>
+	<fieldset style="border-radius: 8px;">
+		<legend class="center"><h3>Pays</h3></legend>
+			<div class="forme">
+				<input type="radio"> Benin
+				<input type="radio"> Senegal
+				<input type="radio"> Cote d'ivoire
+				<input type="radio"> Autres Pays
+			</div>
+	</fieldset >
+	<fieldset style="border-radius: 8px;">
+		<legend class="center"><h3>Bouton</h3></legend>
+		<div class="forme">
+			<input type="submit" value="Envoyer" style="border-radius: 8px;background-color:rgb(108, 108, 255);">
+			<input type="submit" value="Effacer" style="border-radius: 8px;background-color: rgb(108, 108, 255);">
+			<input type="submit" value="Quitter" style="border-radius: 8px;background-color: rgb(108, 108, 255)">
+		</div>
+	</fieldset>
+
+	</div>
+
+	
+	<p><center>&copy; 2025 Ichola. Tous droits réservés.</center></p>
+
+
+</body>
+</html>

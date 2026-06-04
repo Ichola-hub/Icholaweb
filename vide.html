@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Défilement de Couleurs</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    body {
+      animation: gradientScroll 10s ease infinite;
+      background: linear-gradient(270deg, #41ec8e, #1cdb1c, #c5e21e, #0f7546);
+      background-size: 800% 800%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, sans-serif;
+      color: white;
+      font-size: 2em;
+    }
+    @keyframes gradientScroll {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    
+  </style>
+  <link rel="icon" href="ichola .ico" type="image/x-icon">
+</head>
+<body>
+  <marquee direction="right" visibility="visible"  style="opacity: 90;color: aqua;">Pour ouverture des Pages</marquee>
+</body>
+</html>

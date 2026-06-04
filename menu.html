@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="icon" href="ichola .ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="page.css" />
+<style>
+    a:hover {
+    background: rgb(0, 150, 150);
+    transition: 0.3s;
+    }
+    .menu-container {
+    display: grid;
+    grid-template-columns: repeat(2, auto); /* Deux colonnes */
+    gap: 15px; /* Espacement entre les éléments */
+    justify-content: center; /* Centre les éléments */
+}
+
+.menu-link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background: rgb(32, 197, 202);
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-align: center;
+}
+.back-button {
+    color: white;
+    background: rgb(6, 58, 100);
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 30px; /* Espace entre le menu et le bouton Back */
+    transition: 0.5s;
+}
+
+.back-button:hover {
+    background: rgb(10, 70, 120);
+}
+
+
+
+</style>
+
+</head>
+<body>
+    <h1><strong>MENU</strong></h1>
+    <div class="menu-container">
+        <a href="page1.html" class="menu-link" target="vide">Page 1</a>
+        <a href="page 2.html" class="menu-link" target="vide">Page 2</a>
+        <a href="Tab1.html" class="menu-link" target="vide">Les tableaux</a>
+        <a href="CV.html" class="menu-link" target="vide">Mon CV</a>
+        <a href="formulaire1.html" class="menu-link" target="vide">Formulaire 1</a>
+        <a href="formulaire2.html" class="menu-link" target="vide">Formulaire 2</a>
+    </div>
+    <center>
+        <a href="vide.html" class="back-button" target="vide">⬅ Back</a>
+    </center>
+    
+</body>
+</html>
+
+
